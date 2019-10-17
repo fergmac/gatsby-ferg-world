@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -8,13 +7,19 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>fergworld</h1>
+    <p>welcome to my personal website</p>
+    <ul>
+      <li>I want to use this as:</li>
+      <li>creative space to learn more about gatsby</li>
+      <li>a place build out a front for my music</li>
+      <li>post new demos or single i am working on</li>
+      <li>post some drawings that i am working on</li>
+      <li>add authentication to access personal/family side of website for wedding photos, dog photos</li>
+    </ul>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+      <Image imageName="iceImage" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
